@@ -1,10 +1,10 @@
 #!/bin/fish
-/workspaces/m-TCJCFZTE24/mx/pnp.fish
-/workspaces/m-TCJCFZTE24/mx/fixrs.fish
-/workspaces/m-TCJCFZTE24/mx/st.sh
-/workspaces/m-TCJCFZTE24/mx/aryt.fish
-/workspaces/m-TCJCFZTE24/mx/tgpt.fish
-/workspaces/m-TCJCFZTE24/mx/bun.fish
-/workspaces/m-TCJCFZTE24/mx/tmuxx.fish
+/workspaces/rz-UBRWWHC/rz/pnp.fish
+/workspaces/rz-UBRWWHC/rz/fixrs.fish
+/workspaces/rz-UBRWWHC/rz/st.sh
+/workspaces/rz-UBRWWHC/rz/aryt.fish
+/workspaces/rz-UBRWWHC/rz/tgpt.fish
+/workspaces/rz-UBRWWHC/rz/bun.fish
+/workspaces/rz-UBRWWHC/rz/tmuxx.fish
 
 
