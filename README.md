@@ -8,10 +8,17 @@
 
 ----
 
+1. [W ?](#w-)
+2. [Official Resources](#official-resources)
 
 
 ----
 
 # W ?
-> This will have all the work notez for how to be ur girls toilet slave
+> This will have all the work notez for how to be ur girls toilet slave. Note you also also registered for ebonyscatworship and ur girls toilet slave , codingsandbox, stackblitz, codepen, etc.
 
+# Official Resources 
+
+[https://codingheroes.io/resources/](https://codingheroes.io/resources/)
+- Site which is also used in the UJSC
+- Bascially has links to common used resources
