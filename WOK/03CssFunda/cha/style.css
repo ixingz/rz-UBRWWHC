@@ -1,15 +1,48 @@
 body {
   border: 5px solid #ff10e3;
   font-family: sans-serif;
+  background-color: antiquewhite;
 }
 
 h1 {
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(243, 200, 145);
 }
 
 h1,
 h2,
 h3 {
   text-transform: uppercase;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style: square;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }
