@@ -13,15 +13,17 @@
 /* This section my test */
 /* --------------------------- */
 
-/* Combining six selectors */
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+/* Universal Selector everything */
+* {
+  /* border-top: 1dvh solid; */
+}
+
+/* body element parent element of all properites */
+body {
   color: #444;
+  font-family: sans-serif;
+  border-top: 20px solid #1098ad;
+  position: relative;
 }
 
 h1 {
