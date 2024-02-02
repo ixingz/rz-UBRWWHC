@@ -21,12 +21,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
 h1 {
   font-size: 36px;
   text-transform: uppercase;
   font-style: italic;
+  color: #1098ad;
 }
 
 h2 {
@@ -35,6 +37,12 @@ h2 {
 
 h3 {
   font-size: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h4 {
@@ -87,4 +95,14 @@ li {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 3px solid #1098ad;
+  border-bottom: 3px solid #1098ad;
 }

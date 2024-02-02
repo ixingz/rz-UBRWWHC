@@ -4,7 +4,8 @@
   <!-- head is not visible in the page -->
   <head>
     <meta charset="UTF-8" />
-    <title>🍑SnyffPanty</title>
+    <link href="style.css" rel="stylesheet" />
+    <title>🍑GamerThang</title>
   </head>
   <!-- Seen elements is in the body -->
   <body>
@@ -26,27 +27,24 @@
         <a href="#">CSSGrid</a>
       </nav>
     </header>
+    <h2>📘Basics of laguage of the web</h2>
 
     <!-- Article element declaration -->
     <article>
+      <img
+        src="https://i.postimg.cc/9fNzGtW7/200w-webp-cid-ecf05e477mgtnmzdaphxprpb5908v8kp53x5q700iq1l7pxx-ep-v1-gifs-related-rid-200w.webp"
+        border="0"
+        alt="g1"
+      />
       <!-- Header section of the article -->
       <header>
-        <p>Posted by <strong> Panty Smeller </strong> in 2027</p>
-        ><img
-          src="https://i.ibb.co/dff83Yc/26539066.webp"
-          alt="boty"
-          width="600"
-          height="200"
+        <p id="author">Posted by <strong> Bison </strong> in 2027</p>
+        <img
+          src="https://i.postimg.cc/BvRQQvYH/giphy-gif-cid-ecf05e4745cyq7av9nbbtdvs2i4hc25sow3fe4pdj04yrsk8-ep-v1-gifs-related-rid-giphy.gif"
           border="0"
+          alt="me"
         />
       </header>
-      <h2>📘Basics of laguage of the web</h2>
-      <img
-        src="https://i.postimg.cc/7Y6wHPrw/be0d64254865a3bdeefaceeb563e3e2f.gif"
-        border="0"
-        width="150"
-        alt="be0d64254865a3bdeefaceeb563e3e2f"
-      />
       <p>
         The scent of worn panties is a unique and powerful <em> aroma </em>.
         It's a mix of pheromones, sweat, and the natural fragrance of the person
@@ -101,7 +99,7 @@
     </article>
     <h4>Related Posts</h4>
     <aside>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="https://i.postimg.cc/CLdhSGWc/508087861301e344e013d48d8a393826.gif"
@@ -111,7 +109,7 @@
           <a
             href="https://megasite.meanworld.com/trailers/seraryder_slaveorders4a_tr.mp4"
             target="_blank"
-            >💋SlaveOrder</a
+            ><p class="related-author">💋SlaveOrder</p></a
           >
           <p><strong>SpreadAndSniff</strong></p>
         </li>
@@ -124,7 +122,7 @@
           <a
             href="https://megasite.meanworld.com/trailers/femdomsexbot_tr.mp4"
             target="_blank"
-            >💋femdomsexbot</a
+            ><p class="related-author">💋femdomsexbot</p></a
           >
           <p><strong>SweattyDelyght</strong></p>
         </li>
@@ -137,7 +135,7 @@
           <a
             href="https://megasite.meanworld.com/trailers/stripclubdomme19_tr.mp4"
             target="_blank"
-            >💋DomStypes</a
+            ><p class="related-author">💋DomStypes</p></a
           >
           <p><strong>StinkkLuver</strong></p>
         </li>
@@ -150,12 +148,14 @@
           <a
             href="https://megasite.meanworld.com/trailers/gorgeousaphro_slaveorders2_tr.mp4"
             target="_blank"
-            >💋Ebony</a
+            ><p class="related-author">💋Ebony</p></a
           >
           <p><strong>Chokko</strong></p>
         </li>
       </ul>
     </aside>
-    <footer>&omega;<sub>&omega;</sub> CopyLeft - WomanLover</footer>
+    <footer>
+      <p id="copyright">&omega;<sub>&omega;</sub> CopyLeft - WomanLover</p>
+    </footer>
   </body>
 </html>

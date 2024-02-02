@@ -10,11 +10,6 @@
   border-radius: 202px;
 } */
 
-* {
-  background-color: #444;
-  color: #b7b7b7;
-}
-
 /* This section my test */
 /* --------------------------- */
 
