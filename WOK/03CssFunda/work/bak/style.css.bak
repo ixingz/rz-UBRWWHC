@@ -21,12 +21,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
 h1 {
   font-size: 36px;
   text-transform: uppercase;
   font-style: italic;
+  color: #1098ad;
 }
 
 h2 {
@@ -35,6 +37,12 @@ h2 {
 
 h3 {
   font-size: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h4 {
@@ -87,4 +95,60 @@ li {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 3px solid #1098ad;
+  border-bottom: 3px solid #1098ad;
+}
+
+body {
+  /* background-color: #aca3ff; */
+}
+
+/* Automated finding 1st enty of li */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(odd) {
+  color: rgb(245, 0, 204);
+}
+
+li:nth-child(even) {
+  color: rgb(38, 34, 255);
+}
+/* This doesnt work  */
+article p:first-child {
+  color: red;
+}
+article p:last-child {
+  color: rgb(67, 0, 223);
+}
+
+a {
+  color: #1098ad;
+}
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: rgb(0, 21, 255);
+  font-weight: bold;
+  text-decoration: underline wavy rgb(0, 21, 255);
+}
+a:active {
+  background-color: rgb(3, 239, 66);
+  font-style: italic;
 }
