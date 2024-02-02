@@ -1,0 +1,15 @@
+body {
+  border: 5px solid #ff10e3;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
