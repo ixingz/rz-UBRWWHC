@@ -1,5 +1,18 @@
 /* External css file  */
 
+/* --------------------------- */
+/* This section my test */
+/* * {
+  background-color: #0f172a;
+  color: aquamarine;
+  justify-content: center;
+  text-align: center;
+  border-radius: 202px;
+} */
+
+/* This section my test */
+/* --------------------------- */
+
 /* Combining six selectors */
 h1,
 h2,
@@ -42,6 +55,36 @@ li {
 }
 
 /* Descendent Selector */
-footer p {
+/* footer p {
   font-size: 16px;
+} */
+
+/* Nested Headers */
+/* article header p {
+  font-style: italic;
+} */
+
+/* id selector */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+/* class selector */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Changing the unordered list styles */
+/* ul {
+  list-style: ;
+} */
+
+.related {
+  list-style: none;
 }
