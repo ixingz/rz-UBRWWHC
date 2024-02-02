@@ -41,4 +41,19 @@ body {
 }
 
 .details-list {
+  list-style: square;
+}
+
+/* Button */
+.add-cart {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
 }
