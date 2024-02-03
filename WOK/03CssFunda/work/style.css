@@ -21,6 +21,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* background-color: #0f111a; */
 }
 
 /* body element parent element of all properites */
@@ -28,7 +29,6 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 20px solid #1098ad;
-  position: relative;
 }
 
 article {
@@ -123,7 +123,6 @@ ol {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 /* Container that controls all elemnents */
@@ -194,4 +193,36 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.post-header {
+  position: relative;
+}
+
+nav a:link {
+  /* background-color: brown; */
+  margin: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  /* padding: 20px; */
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+}
+
+.asss {
+  width: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
 }
