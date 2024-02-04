@@ -277,5 +277,15 @@ h3::after {
 
 .author-img {
   float: left;
+  object-fit: cover;
+  object-position: 0% 150%;
   margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.author {
+  padding-left: 50px;
+  float: left;
+  margin-left: 20px;
 }
