@@ -51,6 +51,7 @@ h3 {
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 h1,
@@ -215,14 +216,57 @@ button {
   font-size: 24px;
   padding: 20px;
   cursor: pointer;
-  position: fixed;
-  bottom: 150px;
+  position: absolute;
+  bottom: 50px;
   right: 50px;
 }
 
+/* Ass spinning section */
+/* Your section */
 .asss {
   width: 50px;
   position: fixed;
   bottom: 50px;
   right: 50px;
+  animation: spin 10s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes spin {
+  from {
+    transform: rotateY(10deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Section End Section End Section End Section End Section End  */
+
+/* Pseudo Elements */
+h1::first-letter {
+  font-style: normal;
+}
+/* 
+h2::first-letter {
+  font-size: 50px;
+} */
+/* 
+p::first-line {
+  color: blueviolet;
+} */
+
+h3 + p::first-line {
+  color: red;
+}
+
+h3::after {
+  content: "TOP";
+  background-color: aqua;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: 417px;
 }
