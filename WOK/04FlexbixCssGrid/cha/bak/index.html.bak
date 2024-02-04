@@ -22,6 +22,8 @@
       </header>
       <p>Free Shipping for orders over $50.</p>
 
+      <p class="sale">Sale</p>
+
       <p>Nostrils will be filled with strong stink</p>
 
       <p>
@@ -32,6 +34,15 @@
           StinkSmelling ↗️ &rarr;
         </a>
       </p>
+
+      <div class="color">
+        <div class="colors"></div>
+        <div class="colors color-blue"></div>
+        <div class="colors color-red"></div>
+        <div class="colors color-yellow"></div>
+        <div class="colors color-green"></div>
+        <div class="colors color-brown"></div>
+      </div>
 
       <article>
         <h2>Features</h2>

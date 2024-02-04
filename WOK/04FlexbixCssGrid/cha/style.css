@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 700px;
+  width: 1000px;
   margin: auto;
   border: 5px solid #ff10e3;
   padding: 50px 50px;
@@ -93,4 +97,17 @@ a:active {
 }
 .color-brown {
   background-color: brown;
+}
+
+.shipping {
+  float: left;
+  margin-right: 50px;
+}
+.article {
+  float: right;
+}
+
+.main-image {
+  float: left;
+  margin-right: 20px;
 }
