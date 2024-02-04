@@ -215,8 +215,8 @@ button {
   font-size: 24px;
   padding: 20px;
   cursor: pointer;
-  position: fixed;
-  bottom: 150px;
+  position: absolute;
+  bottom: 50px;
   right: 50px;
 }
 
@@ -225,4 +225,21 @@ button {
   position: fixed;
   bottom: 50px;
   right: 50px;
+}
+
+/* Pseudo Elements */
+h1::first-letter {
+  font-style: normal;
+}
+/* 
+h2::first-letter {
+  font-size: 50px;
+} */
+/* 
+p::first-line {
+  color: blueviolet;
+} */
+
+h3 + p::first-line {
+  color: red;
 }
