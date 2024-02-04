@@ -55,3 +55,12 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+.sale {
+  background-color: #ff10e3;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px 10px;
+  display: inline-block;
+}
