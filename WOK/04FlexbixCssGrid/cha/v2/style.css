@@ -76,12 +76,15 @@ a:active {
 }
 
 /* Div colors */
+.product-color {
+  display: flex;
+  gap: 10px;
+}
+
 .colors {
   background-color: black;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
 }
 .color-blue {
   background-color: red;
@@ -98,7 +101,7 @@ a:active {
 .color-brown {
   background-color: brown;
 }
-
+/* 
 .shipping {
   float: left;
   margin-right: 50px;
@@ -110,4 +113,12 @@ a:active {
 .main-image {
   float: left;
   margin-right: 20px;
+} */
+
+/* Flexbox Excercise */
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
