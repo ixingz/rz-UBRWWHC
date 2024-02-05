@@ -130,7 +130,7 @@ ol {
 
 /* Container that controls all elemnents */
 .container {
-  width: 1000px;
+  width: 1400px;
   margin: auto auto;
 }
 
@@ -361,4 +361,15 @@ footer {
   font-weight: normal;
   font-style: italic;
   margin-top: 0;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+.aside {
+  flex: 0 0 825px;
 }
