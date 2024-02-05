@@ -130,7 +130,7 @@ ol {
 
 /* Container that controls all elemnents */
 .container {
-  width: 1400px;
+  width: 1000px;
   margin: auto auto;
 }
 
@@ -208,7 +208,7 @@ a:active {
 nav a:link {
   /* background-color: brown; */
   margin: 5px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
   /* padding: 20px; */
 }
@@ -286,6 +286,7 @@ h3::after {
   width: 100px;
   height: 100px;
 }
+/*
 
 .author {
   float: left;
@@ -304,8 +305,9 @@ nav {
 .clear {
   clear: both;
 }
-
+*/
 /* float side bar */
+/*
 article {
   width: 1000px;
   float: left;
@@ -318,4 +320,13 @@ aside {
 
 footer {
   clear: both;
+}
+*/
+
+/* Making changes using flexbox the aboev was using float  */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
