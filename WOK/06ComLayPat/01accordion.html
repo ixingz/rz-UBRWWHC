@@ -93,6 +93,26 @@
         /* align-items: center; */
       }
 
+      /* Azz Section */
+      .azz {
+        width: 10%;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        animation: spin 10s linear infinite;
+        transform-origin: 50% 50%;
+        border-radius: 100%;
+      }
+      @keyframes spin {
+        from {
+          transform: rotateY(10deg);
+        }
+        to {
+          transform: rotateY(360deg);
+        }
+      }
+      /* Azz Section */
+
       /* .hidden-box li {
         margin-bottom: 10px;
       } */
@@ -206,4 +226,12 @@
       </div>
     </div>
   </body>
+  <a href="/">
+    <img
+      src="https://i.postimg.cc/FKgYxK8v/as1.webp"
+      border="0"
+      alt="as1"
+      class="azz"
+    />
+  </a>
 </html>

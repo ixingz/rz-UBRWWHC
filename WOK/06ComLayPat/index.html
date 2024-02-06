@@ -45,7 +45,7 @@
         bottom: 0;
         background-image: url("https://i.postimg.cc/bNKGQ07t/image.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        position: fixed;
         background-size: cover;
         background-position: center;
         filter: brightness(30%);
@@ -104,8 +104,27 @@
         text-decoration: underline;
         color: #53e8f6;
       }
-      a:active {
+
+      /* Azz */
+      .azz {
+        width: 10%;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        animation: spin 10s linear infinite;
+        transform-origin: 50% 50%;
+        border-radius: 100%;
       }
+      @keyframes spin {
+        from {
+          transform: rotateY(10deg);
+        }
+        to {
+          transform: rotateY(360deg);
+        }
+      }
+
+      /* Azz */
     </style>
 
     <!-- Styles Section -->
@@ -123,7 +142,7 @@
     </div>
     <div class="tabtext-container">
       <div class="tabtext">
-        <a href="./01accordion.html">
+        <a href="./01accordion.html" target="_blank">
           <h3>Accordians</h3>
         </a>
         <h3>Test building an accordian component</h3>
@@ -133,6 +152,30 @@
           <h3>Accordians</h3>
         </a>
         <h3>Test building an accordian component</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
+      </div>
+      <div class="tabtext">
+        <h3>pussy Smells</h3>
+        <h3>pussy Smells</h3>
       </div>
       <div class="tabtext">
         <h3>pussy Smells</h3>
@@ -140,4 +183,12 @@
       </div>
     </div>
   </body>
+  <a href="/">
+    <img
+      src="https://i.postimg.cc/FKgYxK8v/as1.webp"
+      border="0"
+      alt="as1"
+      class="azz"
+    />
+  </a>
 </html>
