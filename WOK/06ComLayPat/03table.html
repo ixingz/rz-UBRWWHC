@@ -20,6 +20,10 @@
       body {
         background-color: #211522;
         font-family: "Amaranth", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
       /* Azz */
       .azz {
@@ -45,6 +49,7 @@
       /* Gradient Heading */
       .gradtext {
         padding-top: 8px;
+        padding-bottom: 30px;
         text-align: center;
         font-size: 24px;
         font-weight: 800;
@@ -53,6 +58,28 @@
         -webkit-text-fill-color: transparent;
       }
       /* Gradient Heading */
+
+      table {
+        width: 800px;
+        margin: 0 auto;
+        /* border: 2px solid #b4fee7; */
+        border-collapse: collapse;
+        color: #fd49a0;
+        font-size: 24px;
+      }
+      th,
+      td {
+        /* border: 2px solid #b4fee7; */
+        padding: 20px 22px;
+        text-align: left;
+      }
+      thead th {
+        background-color: #a16ae8;
+        width: 25%;
+      }
+      tbody tr:nth-child(even) {
+        background-color: #b4fee7;
+      }
     </style>
   </head>
   <body>
@@ -64,30 +91,34 @@
 
     <!-- Tables development -->
     <table>
-      <tr>
-        <td>Chair</td>
-        <td>TheLainBack</td>
-        <td>TheWorkerBee</td>
-        <td>TheChar42</td>
-      </tr>
-      <tr>
-        <td>Width</td>
-        <td>80cm</td>
-        <td>60cm</td>
-        <td>220cm</td>
-      </tr>
-      <tr>
-        <td>Depth</td>
-        <td>70cm</td>
-        <td>65cm</td>
-        <td>80cm</td>
-      </tr>
-      <tr>
-        <td>Height</td>
-        <td>90cm</td>
-        <td>80cm</td>
-        <td>100cm</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>Chair</th>
+          <th>TheLainBack</th>
+          <th>TheWorkerBee</th>
+          <th>TheChar42</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Width</th>
+          <td>80cm</td>
+          <td>60cm</td>
+          <td>220cm</td>
+        </tr>
+        <tr>
+          <th>Depth</th>
+          <td>70cm</td>
+          <td>65cm</td>
+          <td>80cm</td>
+        </tr>
+        <tr>
+          <th>Height</th>
+          <td>90cm</td>
+          <td>80cm</td>
+          <td>100cm</td>
+        </tr>
+      </tbody>
     </table>
 
     <!-- Tables development -->
