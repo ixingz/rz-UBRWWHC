@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth&family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <title>03Tables</title>
+    <style>
+      * {
+        font-family: "Unbounded", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #211522;
+        font-family: "Amaranth", sans-serif;
+      }
+      /* Azz */
+      .azz {
+        width: 10%;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        animation: spin 10s linear infinite;
+        transform-origin: 50% 50%;
+        border-radius: 100%;
+      }
+      @keyframes spin {
+        from {
+          transform: rotateY(10deg);
+        }
+        to {
+          transform: rotateY(360deg);
+        }
+      }
+
+      /* Azz */
+
+      /* Gradient Heading */
+      .gradtext {
+        padding-top: 8px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        background: -webkit-linear-gradient(#b4fee7, #fd49a0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      /* Gradient Heading */
+    </style>
+  </head>
+  <body>
+    <!-- Header Gradient Text -->
+    <div class="gradtext">
+      <h1>Table Component</h1>
+    </div>
+    <!-- END_HaderGradient -->
+
+    <!-- Tables development -->
+    <table>
+      <tr>
+        <td>Chair</td>
+        <td>TheLainBack</td>
+        <td>TheWorkerBee</td>
+        <td>TheChar42</td>
+      </tr>
+      <tr>
+        <td>Width</td>
+        <td>80cm</td>
+        <td>60cm</td>
+        <td>220cm</td>
+      </tr>
+      <tr>
+        <td>Depth</td>
+        <td>70cm</td>
+        <td>65cm</td>
+        <td>80cm</td>
+      </tr>
+      <tr>
+        <td>Height</td>
+        <td>90cm</td>
+        <td>80cm</td>
+        <td>100cm</td>
+      </tr>
+    </table>
+
+    <!-- Tables development -->
+  </body>
+  <a href="/">
+    <img
+      src="https://i.postimg.cc/FKgYxK8v/as1.webp"
+      border="0"
+      alt="as1"
+      class="azz"
+    />
+  </a>
+</html>
